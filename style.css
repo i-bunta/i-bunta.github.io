@@ -5,7 +5,7 @@ i {
 }
 
 body {
-    padding:40px 0 0 0 ;
+    padding:50px 0 0 0 ;
 }
 
 hr {
@@ -13,12 +13,14 @@ hr {
     padding:0;
 }
 
-.kotei {
-    height: 50px;
-    position: fixed;
-    z-index: 999;
+.logo {
+    height:35px;
+    margin:0;
 }
 
+.navbar-color{
+    background-color:white;
+}
 
 /* top-image */
 
@@ -32,7 +34,7 @@ hr {
 
 .about{
     margin-top:30px;
-    height:400px;
+    
     border:2px solid #EAEAEA;
     border-radius:10px;
     
@@ -44,12 +46,17 @@ hr {
 
 .profile-image{
     border:5px solid #EAEAEA;
-    margin:30px 70px 0px 40px;
+    margin:30px 50px 0px 30px;
+    
+}
+
+.profile-image2{
+    margin:0 auto;
 }
 
 .profile-copy{
     border-bottom:4px solid #C7243A;
-    margin:15px 0px 0px 40px; 
+    margin:15px 0px 30px 40px; 
 }
 
 
